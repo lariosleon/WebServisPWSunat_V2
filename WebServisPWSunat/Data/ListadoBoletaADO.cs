@@ -33,6 +33,7 @@ namespace WebServisPWSunat.Data
                         Ruc = reader.GetString(reader.GetOrdinal("Ruc")),
                         Subtotal = reader.GetDouble(reader.GetOrdinal("Subtotal")),
                         Igv = reader.GetDouble(reader.GetOrdinal("Igv")),
+                        Isc = reader.GetDouble(reader.GetOrdinal("Isc")),
                         total = reader.GetDouble(reader.GetOrdinal("total")),
                         error = reader.GetString(reader.GetOrdinal("error")),
                         enviado = reader.GetString(reader.GetOrdinal("enviado")),

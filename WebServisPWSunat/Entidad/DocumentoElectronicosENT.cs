@@ -13,6 +13,7 @@ namespace WebServisPWSunat.Entidad
         public string Ruc { get; set; }
         public double Subtotal { get; set; }
         public double Igv { get; set; }
+        public double Isc { get; set; }
         public double total { get; set; }
         public string error { get; set; }
         public string enviado { get; set; }
